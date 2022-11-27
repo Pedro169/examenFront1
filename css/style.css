@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,300;1,100&display=swap');
+
+* {  
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+h2{
+    font-size: 2rem;
+}
+ul{
+    list-style-type: none;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+}
+.nav1{
+    display: flex;
+
+}
+
+.nav1 li{
+    padding: 20px;
+    cursor: pointer;
+
+}
+
+.nav1 li a{
+    text-decoration: none;
+    color: black;
+
+}
+.nav1 li a:hover{
+    color: gray;
+}
+.nav2{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.nav2 li{
+    padding: 10px;
+    cursor: pointer;
+
+}
+
+.nav2 li a{
+    text-decoration: none;
+    color: white;
+
+}
+.p1{
+    position: relative;
+    left: 50px;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.article1{
+    display: flex;
+    justify-content: right;
+    width: 600px;
+    height: 150px;
+
+}
+.article2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 500px;
+    height: 150px;
+
+}
+.button{
+    color: white;
+    padding: 10px 30px;
+    border-radius: 20px;
+    background-color: #8B48BF;
+    cursor: pointer;
+}
+
+.button:hover{
+    opacity: 0.5;
+}
+
+.cajaButton{
+    position: relative;
+    top: 100px;
+    bottom: 300px;
+}
+
+.button2{
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: #8B48BF;  
+}
+.button2Padding{
+    padding: 35px
+}
+.button3{
+    color: #8B48BF;
+    padding: 10px 30px;
+    border-radius: 20px;
+    background-color: #FFFFFF;  
+    border: solid 1px #8B48BF;
+    cursor: pointer;
+}
+.button3:hover{
+    background-color: gray;
+    color:white;
+    border: solid 1px white;
+}
+
+.button3Padding{
+    padding: 45px
+}
+
+.logo{
+    padding: 20px;
+}
+.contenedor1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 40px;
+}
+.contenedor2{
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    background-color: #8B48BF;
+    padding: 40px;
+}
+.contenedor3{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+.contenedor4{
+    display: flex;
+    justify-content: center;  
+}
+
+.contenedor5{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    align-items: center;
+    justify-content: center;
+    padding:10px;
+    
+}
+.contenedor5 div{
+    padding: 10px;
+}
+.contenedor6{
+    display: flex;
+    padding: 30px;
+}
+.contenedor7{
+    display: flex;
+    justify-content: space-between;
+    background-color: #8B48BF;
+    color: white;
+    padding: 20px;
+    margin-top: 180px;
+
+}
+.live{
+    display: flex;
+    flex-direction: column;
+    text-align: right;   
+}  
+.live div{
+    padding:15px;
+}
+.form1{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+} 
+.form1 input{
+    padding: 10px 50px;
+    border-radius: 25px;
+    position: relative;
+    right: 40px;
+    top: 30px;
+}
+
+.form1 button{
+    padding: 10px 20px;
+    border-radius: 25px;
+    background-color: #8B48BF;
+    color: white;
+    border: solid 1px white;
+    position: relative;
+    top: 30px;
+    right: 20px;
+}
+.h6Footer{
+    opacity: 0.5;
+    position: relative;
+    top: 100px;
+    right: 10px;
+    left:100px;
+
+}
+.logosFooter{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 50px;
+    color: white;
+}
