@@ -14,7 +14,11 @@
             <object data="img/logo.svg"></object>
            
         </div>
-        <nav >           
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label>           
             <ul class="nav1">
                 <li><a class="a" href="#">Sport</a></li>
                 <li><a href="#">Products</a></li>
@@ -31,10 +35,10 @@
             </a>
         </div>
     </header>
-    <main>
+    <main class="main">
        <section class="contenedor1">
         <div>
-            <img src="img/padel-intro.png" alt="deportista padel">
+            <img class="imgTenis" src="img/padel-intro.png" alt="deportista padel">
         </div>
         <div class="live">
             <div>
@@ -44,7 +48,7 @@
                 <h3>The final Open of the 2022 World Padel Tour season is <br>underway, don't miss out on any of the action!</h3>
            </div>             
             <div>
-                <button class="button">Contact</button>
+                <button class="button5">Contact</button>
             </div>             
          </div>                  
         </section>
@@ -58,7 +62,7 @@
                     <button class="button2">01</button>
                 </div>
                 <div>
-                    <h4>Track company-wide progress</h4>
+                    <h4 class="tituloMovil">Track company-wide progress</h4>
                     <p>
                     Donec elit est, mattis lacinia arcu eu, efficitur consequat augue. Nam tellus sem, tempus pellentesque egestas vitae, efficitur vel nulla. Etiam vel orci rutrum, placerat quam eget, consequat dolor.
                     </p>
@@ -69,7 +73,7 @@
                     <button class="button2">02</button>
                 </div>
                 <div>
-                    <h4>Advance built-in reports</h4>
+                    <h4 class="tituloMovil">Advance built-in reports</h4>
                     <p >Donec elit est, mattis lacinia arcu eu, efficitur consequat augue. Nam tellus sem, tempus pellentesque egestas vitae, efficitur vel nulla. Etiam vel orci rutrum, placerat quam eget, consequat dolor.
                     </p> 
                 </div>                               
@@ -81,7 +85,7 @@
                     <button class="button2">03</button>
                 </div>
                 <div class="p2">
-                    <h4>Everything you need in one place</h4>
+                    <h4 class="tituloMovil">Everything you need in one place</h4>
                     <p >Donec elit est, mattis lacinia arcu eu, efficitur consequat augue. Nam tellus sem, tempus pellentesque egestas vitae, efficitur vel nulla. Etiam vel orci rutrum, placerat quam eget, consequat dolor.
                     </p> 
                 </div>                               
@@ -93,7 +97,7 @@
                 <h2>Best of the month</h2>
             
             <section class="contenedor6">
-                <article class="article2">
+                <article class="article2 contenedorNone">
                     <div>
                         <img src="img/avatar-sanyo.png" alt="Imagen Sanyo">
                     </div>
@@ -115,7 +119,7 @@
                         <p>Etiam fermentum, nulla eget gravida cursus, purus lectus feugiat mauris, ut suscipit massa ipsum eu neque. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
                     </div>                    
                 </article>
-                <article class="article2">
+                <article class="article2 contenedorNone">
                     <div>
                         <img src="img/avatar-navarro.png" alt="Imagen Navarro">
                     </div>
@@ -128,12 +132,12 @@
                 </article>                   
             </section> 
             <div class="cajaButton">
-                <button class="button">More</button>   
+                <button class="button4">More</button>   
             </div>          
         </div>
         
         <section class="contenedor7">
-            <div>
+            <div class="d">
                 <p class="p1">
                     Get to know the best <br> teams of the year
                 </p>
@@ -144,9 +148,9 @@
         </section>  
     </main>
     <footer>
-        <div class="logosFooter">
-            <object data="img/logo.svg"></object>
-            <div>
+        <div class="logosFooter item1">
+            <object class="logoPrincipal" data="img/logo.svg"></object>
+            <div class="logos">
                 <i class="fa-brands fa-facebook"></i>
                 <i class="fa-brands fa-youtube"></i>
                 <i class="fa-brands fa-twitter"></i>
@@ -154,32 +158,37 @@
                 <i class="fa-brands fa-instagram"></i>
             </div>
         </div>
-        <nav class="nav2">
-            <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">Pricing</a></li>
-                <li><a href="">Products</a></li>
-                <li><a href="">About Us</a></li>
-            </ul>
-        </nav>
+        <div class="flexNav item2">
+            <nav class="nav2">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Pricing</a></li>
+                    <li><a href="">Products</a></li>
+                    <li><a href="">About Us</a></li>
+                </ul>
+            </nav>
+    
+            <nav class="nav2">
+                <ul>
+                    <li><a href="">Training</a></li>
+                    <li><a href="">Community</a></li>
+                    <li><a href="">Privacy Policy</a></li>
+                </ul>
+            </nav>
 
-        <nav class="nav2">
-            <ul>
-                <li><a href="">Training</a></li>
-                <li><a href="">Community</a></li>
-                <li><a href="">Privacy Policy</a></li>
-            </ul>
-        </nav>
-        <div>
+        </div>   
+        <div class="item3">
             <form action="" class="form1">
                 <input type="text">
                 <button>GO</button>
             </form>
-            <div>
+            <div class="item4">
                 <h6 class="h6Footer">Copyright All Rights Reserved</h6>
             </div>
         </div>
-
+        <div class="item5">
+            <h6>Copyright All Rights Reserved</h6>
+        </div>
     </footer>  
 </body>
 </html>
